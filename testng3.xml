@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  <test name="Regression">
+  <groups> 
+  <run> 
+  <exclude name="Smoke">
+  </exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="testNGTurtorial.day2"/>
+      <class name="testNGTurtorial.day1"/>
+      <class name="testNGTurtorial.day4"/>
+      <class name="testNGTurtorial.day3"/>
+    </classes>
+  </test> <!-- Regression -->
+</suite> <!-- Loan Department -->
