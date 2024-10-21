@@ -9,6 +9,7 @@ public class PS2 extends PS3{
 	
 	public int increment() {
 		a=a+1;
+		System.out.println(a);
 		return a;
 	}
 	
